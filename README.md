@@ -6,6 +6,7 @@ The need for accurate prediction of binding affinity is crucial in drug discover
 
 # Dataset
 The PDB_Bind database, which contains information about protein-ligand interactions obtained from the Protein Data Bank (PDB). Specifically, I will use the PDBBind dataset provided by Dr. Camille Bilodeau. The dataset will be processed and prepared for training the neural network model.
+
 ![image](https://github.com/danielgarzonotero/PDB_Bind/assets/122416545/fa6b87aa-e9eb-4a39-8e28-a352cdae36b7)
 
 
