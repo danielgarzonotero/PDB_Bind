@@ -20,6 +20,31 @@ Visualization: Utilize the Matplotlib library to visualize the data and interpre
 # Neural Network Model
 A fully connected neural network (FCNN) is defined using PyTorch. The FCNN consists of three fully connected layers with ReLU activation functions and two dropout layers. Dropout is used as a regularization technique to prevent overfitting.
 
+# Usage
+To run the project, follow these steps:
+
+-Install the required libraries (PyTorch, pandas, matplotlib, sklearn, scipy).
+
+-Set the path to the CSV file in the PDB class instantiation (data_set = PDB('path/to/dataset.csv')).
+
+-Set the desired hyperparameters for the neural network model (input size, hidden layer sizes, output size, dropout probabilities).
+
+-Create data loaders for training and validation datasets.
+
+-Instantiate the neural network model (model = FCNN(input_size, hidden_size1, hidden_size2, output_size)).
+
+-Choose an optimizer (e.g., Adam) and set the learning rate.
+
+-Train the model using the train function in a loop for the desired number of epochs, passing the model, device, training data loader, and optimizer as arguments.
+
+-Validate the model using the validate function, passing the model, device, validation data loader, and current epoch number as arguments.
+
+-Make predictions using the predict function, passing the trained model, device, and data loader for the test dataset.
+
+-Evaluate the performance of the model using various metrics such as R-squared, MAE, RMSE, and Pearson correlation coefficient.
+
+-Remember to modify the code according to your specific requirements and dataset paths
+
 # Results
 
 ![image](https://github.com/danielgarzonotero/PDB_Bind/assets/122416545/b6aaa81c-25dc-4e82-a07c-d970475d2b7b)
